@@ -1,0 +1,5 @@
+CREATE DATABASE ask;
+SHOW DATABASES;
+
+mysql -uroot -e "create database ask"
+
