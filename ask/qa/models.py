@@ -29,7 +29,6 @@ class Question(models.Model):
     class Meta:
         ordering = ['-added_at']
         verbose_name_plural = "Question"
-        db_table = 'Question'
     
 class Answer(models.Model):
     
@@ -45,4 +44,3 @@ class Answer(models.Model):
     class Meta:
         ordering = ['-added_at']
         verbose_name_plural = "Answer"
-        db_table = 'Answer'
